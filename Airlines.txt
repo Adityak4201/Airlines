@@ -1,0 +1,6 @@
+drop database airlines;
+create database airlines;
+use airlines;
+create table login(username varchar(20), password varchar(15));
+insert into login values('aditya','aditya');
+create table newcust(name varchar(30),father_name varchar(30),gender varchar(6),dob date,address varchar(50),mobile bigint);
